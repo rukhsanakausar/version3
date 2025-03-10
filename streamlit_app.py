@@ -380,7 +380,7 @@ def visualize_graph():
     st.pyplot(fig)
 # Add to main() function
 def main():
-    st.title("Water Network Builder 🌊")
+    st.title("Water network E and A matrices builder 🌊")
     # Node creation
     with st.expander("🏗️ Add Node", expanded=True):
         node_type = st.selectbox("Node Type", ["Junction", "Tank", "Reservoir"])
