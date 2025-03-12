@@ -50,7 +50,7 @@ def visualize_network():
             'style': 'dashed' if pipe['has_pump'] else 'solid'
         }
         if pipe['has_pump']:
-           # edge_attrs['label'] += f"\n{pipe['pump_power']}kW"
+           edge_attrs['label'] += f"\n{pipe['pump_power']}kW"
         G.add_edge(pipe['start'], pipe['end'], **edge_attrs)
 
     # Draw graph
